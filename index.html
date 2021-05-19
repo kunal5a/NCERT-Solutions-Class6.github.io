@@ -1,0 +1,202 @@
+<html>
+<head> <title> Class'6 KV webpage </title>
+  <link rel="shortcut icon" href="Images/Kendriya_Vidyalaya_logo.ico" type="image/x-icon"> 
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+  <style>
+ /* Tutorial on https://fossheim.io/writing/posts/css-text-gradient. */
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: #CA4246;
+  
+  /* Create the gradient. */
+   background-image: linear-gradient(
+        45deg,
+                           #ee82ee 16.666%, 
+                           #4b0082 16.666%, 
+                           #0000ff 33.333%, 
+                           #ff0000 33.333%, 
+                           #ffff00 50%, 
+                           #ffa500 50%, 
+                           #008000 66.666%, 
+                           #476098 66.666%, 
+                           #476098 83.333%, 
+                           #A7489B 83.333%);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  /* Animate the text when loading the element. */
+    /* This animates it on page load and when hovering out. */
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+
+}
+
+.gradient-text:hover{
+    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 650%;
+    }
+}
+  
+
+
+/* Style the rest of the page. */
+body {
+  background-color: #fdf1f0;
+}
+
+header {
+  margin-top: 1em;
+  margin-top: calc(50vh - 3em);
+}
+  h1 {
+  display: block;
+  font-size: 2.6em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+    </style>
+</head>
+
+<body> 
+    <style>
+        body {
+          background-image: url('Images/pp.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+        <style>
+          .button {
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+          }
+          
+          .button1 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+          }
+          
+          .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+          }
+          
+          .button2 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #008CBA;
+          }
+          
+          .button2:hover {
+            background-color: #008CBA;
+            color: white;
+          }
+          .button3 {
+            background-color: rgb(255, 255, 255); 
+            color: black; 
+            border: 2px solid #cccf0a;
+          }
+          
+          .button3:hover {
+            background-color: #cccf0a;
+            color: white;
+          }
+          .button4 {
+                  background-color: rgb(255, 255, 255); 
+                  color: black; 
+                  border: 3px solid #cf0a6c;
+                }
+                
+                .button4:hover {
+                  background-color: #cf0a6c;
+                  color: white;
+                }
+                .button5 {
+          background-color: rgb(255, 255, 255); 
+          color: black; 
+          border: 3px solid #0acf7d;
+        }
+        .button5:hover {
+          background-color: #0acf7d;
+          color: white;
+        }
+        .button6 {
+background-color: rgb(255, 255, 255); 
+color: black; 
+border: 3px solid #cf0a9e;
+}
+.button6:hover {
+background-color: #cf0a9e;
+color: white;
+}
+          
+          </style>
+
+<button class="button button1"><a href="https://bilaspur.kvs.ac.in/"target="_blank" style="color:#000000"><b>KV Bilaspur</button></a></b>
+<button class="button button2"><a href="about.html"target="_blank" style="color:#000000"><b>About KV Bilaspur</button></a></b>
+<button class="button button3"><a href="mailto:s6a1548.kunal7207@kvsroraipur.in"target="_blank" style="color:#000000"><b>Send Mail</button></a></b>
+<button class="button button4"><a href="NCERT Textbook Class'6.html"target="_blank" style="color:#000000"><b>NCERT Textbook Class'6</button></a></b>
+<button class="button button5"><a href="NCERT Solutions Class'6.html"target="_blank" style="color:#000000"><b>NCERT Solutions Class'6</button></a></b>
+<button class="button button6"><a href="more.html"target="_blank" style="color:#000000"><b>More...</button></a></b>
+<hr>
+
+<h1 ALIGN="center"class="gradient-text">  <font face="Trajan Pro" COLOR="#cfcbcb" size:39px> <u> <b> KUNAL SRIVASTAV 
+ </b> </u> </FONT> </h1>
+
+<P ALIGN="center"> <img src="Images/PP Kunal.jpg" HEIGHT="475" WIDTH="425"/> </P>
+<hr> 
+
+<P ALIGN="center">  <font face="Colonna MT" size="10" COLOR="#FFFFFF"> <u> <b> <marquee behavior="scroll" direction="left" scrollamount="15"> Hey Guy's👋🏻 My name is Kunal, Studing in Class 6th'A in <a href="https://bilaspur.kvs.ac.in/"target="_blank" style="color:#00a2ff"> Kendriya Vidyalaya Bilaspur. </a>Here I make a webpage you can go to the buttons in navigation bar and use features(NOTE:THIS SITE IS ONLY FOR CLASS 6TH STUDENTS).
+</marquee> </b> </u> </FONT> </P><hr> 
+<script type="text/javascript" src="https://free-hit-counters.net/count/8nv7"></script><br>
+ <a href='https://www.versicherungen.at/ablebensversicherung-rechner/'>Lebensversicherungen Vergleich</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=0496595089ab7658baa684843b58ddc012c4be57'></script>           
+</body>
+
+</html>
